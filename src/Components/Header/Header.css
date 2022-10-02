@@ -1,0 +1,22 @@
+.parent,.mid,.right,.cart,.wishlist,.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mid h3{
+    margin: 10px;
+    color: #252B42;
+}
+
+.right >*{
+    margin-right:20px ;
+}
+.right .text{
+    margin-left: 10px;
+}
+.mid .special,.text{
+    color: #737373;
+}
+.title{
+    color: #252B42;
+}
