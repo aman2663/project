@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
 }
+    
 .card{
     display: flex;
     flex-direction: column;
@@ -21,10 +22,11 @@
 }
 .products{
     overflow-x: scroll;
-    /* overflow-y: hidden; */
     height: auto;
-
+    height: auto;
+    padding: 15px !important;
 }
+
 button{
     display: flex;
     justify-content:center;
